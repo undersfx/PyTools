@@ -1,9 +1,7 @@
 # PyTools
-Módulo para exemplificar construção de projetos Python no curso PyTools
+Módulo para exemplificar construção de projetos Python no curso [PyTools](https://www.python.pro.br/modulos/pytools) da [Python Pro](https://www.python.pro.br/)
 
 [![Build Status](https://travis-ci.org/undersfx/PyTools.svg?branch=master)](https://travis-ci.org/undersfx/PyTools)
-
-Testes feitos para o curso [PyTools](https://www.python.pro.br/modulos/pytools) da [Python Pro](https://www.python.pro.br/)
 
 Instalação:
 
