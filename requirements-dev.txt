@@ -11,6 +11,9 @@ pylint==2.4.3
 six==1.13.0
 typed-ast==1.4.0
 wrapt==1.11.2
+
+# Pytest
+
 importlib-metadata==0.12
 attrs==17.4.0
 atomicwrites==1.0
@@ -20,4 +23,9 @@ more-itertools>=4.0.0
 zipp>=0.5
 pyparsing>=2.0.2
 pytest
+
+# Coverage
+coverage==4.5.4
+pytest-cov==2.8.1
+
 -r requirements.txt
