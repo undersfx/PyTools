@@ -19,4 +19,7 @@ Tecnologias Abordadas:
 4. Pip
 5. Flake8
 6. Travis CI
-7. Pypi (Setup, Twine)
+7. Pyup
+8. Pytest
+9. Codecov
+10.Pypi (Setup, Twine)
