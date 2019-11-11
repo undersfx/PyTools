@@ -22,4 +22,4 @@ Tecnologias Abordadas:
 7. Pyup
 8. Pytest
 9. Codecov
-10.Pypi (Setup, Twine)
+10. Pypi (Setup, Twine)
