@@ -1,3 +1,6 @@
+from libpythonpro.spam.db import Conexao, Usuario
+
+
 def test_salvar_usuario():
     conexao = Conexao()
     sessao = conexao.gerar_sessao()
