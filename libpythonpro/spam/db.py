@@ -1,3 +1,6 @@
+from time import sleep
+
+
 class Sessao:
     contador = 0
     usuarios = []
@@ -18,6 +21,10 @@ class Sessao:
 
 
 class Conexao:
+    def __init__(self):
+        # DB Connection Simulation
+        sleep(3)
+
     def gerar_sessao(self):
         return Sessao()
 
