@@ -23,7 +23,7 @@ class Sessao:
 class Conexao:
     def __init__(self):
         # DB Connection Simulation
-        sleep(3)
+        sleep(1)
 
     def gerar_sessao(self):
         return Sessao()
