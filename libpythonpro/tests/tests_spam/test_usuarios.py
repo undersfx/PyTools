@@ -1,4 +1,5 @@
-from libpythonpro.spam.db import Conexao, Usuario
+from libpythonpro.spam.db import Conexao
+from libpythonpro.spam.modelos import Usuario
 
 
 def test_salvar_usuario():
