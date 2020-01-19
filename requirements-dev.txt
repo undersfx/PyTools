@@ -22,7 +22,7 @@ packaging==20.0
 more-itertools>=4.0.0
 zipp>=0.5
 pyparsing>=2.0.2
-pytest==5.3.2
+pytest==5.3.3
 
 # Coverage
 coverage==5.0.3
