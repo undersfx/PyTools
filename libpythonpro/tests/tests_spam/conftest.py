@@ -2,7 +2,7 @@ import pytest
 from libpythonpro.spam.db import Conexao
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='session')  # Can be 'function' (Default), 'module' or 'session'
 def conexao():
     conexao_obj = Conexao()
     yield conexao_obj
