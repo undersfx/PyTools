@@ -11,9 +11,5 @@ def buscar_usuario(username: str) -> dict:
 
     url = f'https://api.github.com/users/{username}'
     r = requests.get(url)
-    return r.json()
+    return r.json()['avatar_url']
 
-
-if __name__ == '__main__':
-    user = buscar_usuario('undersfx')
-    print(user['avatar_url'])
