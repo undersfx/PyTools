@@ -42,7 +42,7 @@ def test_quantidade_de_spam(sessao, usuarios):
     for usuario in usuarios:
         sessao.salvar(usuario)
     enviador = Mock()
-    enviador_de_spam = EnviadorDeSpam(sessao, enviador) # Injeção de Dependências
+    enviador_de_spam = EnviadorDeSpam(sessao, enviador)  # Injeção de Dependências
     enviador_de_spam.enviar_emails(
         'renzo@python.pro.br',
         'Curso Python Pro',
