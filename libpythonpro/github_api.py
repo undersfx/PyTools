@@ -12,4 +12,3 @@ def buscar_usuario(username: str) -> dict:
     url = f'https://api.github.com/users/{username}'
     r = requests.get(url)
     return r.json()['avatar_url']
-
