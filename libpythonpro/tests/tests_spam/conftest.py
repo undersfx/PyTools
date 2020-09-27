@@ -1,3 +1,9 @@
+"""
+Arquivo de configuração do pytest para disponibilizar as fixtures para mais de um teste.
+
+Todos os arquivos no mesmo nível de árvore que conftest.py poderão utilizar as fixtures de seu conteúdo.
+"""
+
 import pytest
 from libpythonpro.spam.db import Conexao
 
