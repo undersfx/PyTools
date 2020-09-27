@@ -4,14 +4,21 @@ from unittest.mock import Mock
 
 
 @pytest.fixture
-def avatar_url():
+def avatar_url(mocker):
+    # Criação do objeto resposta (Mock da resposta da API)
     resp_mock = Mock()
     url = 'https://avatars2.githubusercontent.com/u/7119450?v=4'
     resp_mock.json.return_value = {'login': 'undersfx', 'avatar_url': url}
-    request_original = github_api.requests.get
-    github_api.requests.get = Mock(return_value=resp_mock)
-    yield url
-    github_api.requests.get = request_original
+
+    # request_original = github_api.requests.get
+    # github_api.requests.get = Mock(return_value=resp_mock)
+    # yield url
+    # github_api.requests.get = request_original
+
+    # Substituição do método "get" da lib requests com mocker (pytest-mock)
+    get_mock = mocker.patch('libpythonpro.github_api.requests.get')
+    get_mock.return_value = resp_mock
+    return url
 
 
 def test_buscar_avatar(avatar_url):
