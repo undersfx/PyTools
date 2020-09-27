@@ -57,11 +57,11 @@ def test_parametros_de_spam(sessao):
     enviador = Mock()
     enviador_de_spam = EnviadorDeSpam(sessao, enviador)
     enviador_de_spam.enviar_emails(
-        'renzo@python.pro.br',
+        'luciano@python.pro.br',
         'Curso Python Pro',
         'Novos Módulos'
     )
-    enviador.enviar.assert_called_once_with('renzo@python.pro.br',
+    enviador.enviar.assert_called_once_with('luciano@python.pro.br',
                                             'renzo@python.pro.br',
                                             'Curso Python Pro',
                                             'Novos Módulos')
