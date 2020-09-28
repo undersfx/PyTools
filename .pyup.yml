@@ -1,0 +1,5 @@
+schedule: every month
+update: insecure
+requirements:
+ - Pipfile
+ - Pipfile.lock
