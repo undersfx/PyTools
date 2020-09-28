@@ -10,7 +10,7 @@ python -m pip install pipenv
 pipenv sync
 ```
 
-Tecnologias Abordadas:
+Tópicos Abordados:
 
 1. Git
 2. Pyenv
@@ -22,3 +22,5 @@ Tecnologias Abordadas:
 8. Pytest
 9. Codecov
 10. Pypi (Setup, Twine)
+11. Mock
+12. Pipenv
