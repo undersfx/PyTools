@@ -3,10 +3,11 @@ python:
   - 3.7
 install:
  - pip install -e .
- - pip install -q pipenv codecov
+ - pip install --upgrade -q pipenv codecov
  - pipenv sync --dev
 script:
  - flake8
+ - pipenv check
  - python -m pytest libpythonpro --cov=libpythonpro
 after_success:
  - codecov
