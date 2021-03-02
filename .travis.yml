@@ -8,7 +8,8 @@ install:
 script:
  - flake8
  - pipenv check
- - bandit -r libpythonpro
+ - bandit -r libpythonpro -x tests -ll -ii
  - python -m pytest --cov=libpythonpro
 after_success:
  - codecov
+ 
