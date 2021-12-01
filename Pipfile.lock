@@ -311,10 +311,10 @@
         },
         "pylint": {
             "hashes": [
-                "sha256:064b486e16f4d8b92405b6529178bc48713c0673322c2e1aca919f75bd76dbf4",
-                "sha256:ad2b3a806fc7261e9bbf858068c10cd6b62b8c59ba9566c4a4ead0db796f8930"
+                "sha256:4f4a52b132c05b49094b28e109febcec6bfb7bc6961c7485a5ad0a0f961df289",
+                "sha256:b4b5a7b6d04e914a11c198c816042af1fb2d3cda29bb0c98a9c637010da2a5c5"
             ],
-            "version": "==2.9.2"
+            "version": "==2.12.1"
         },
         "pyparsing": {
             "hashes": [
