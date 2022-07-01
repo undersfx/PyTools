@@ -55,10 +55,10 @@
     "develop": {
         "astroid": {
             "hashes": [
-                "sha256:bfd6c41149d1a368e9b7d3cc90470528e080efdd57fbc0c95426794e0be91c5b",
-                "sha256:f973b3622700431b6e8734ce66f6c18503922a13fb8eb8592e78bd4506823efb"
+                "sha256:4f933d0bf5e408b03a6feb5d23793740c27e07340605f236496cd6ce552043d6",
+                "sha256:ba33a82a9a9c06a5ceed98180c5aab16e29c285b828d94696bf32d6015ea82a9"
             ],
-            "version": "==2.9.1"
+            "version": "==2.11.6"
         },
         "atomicwrites": {
             "hashes": [
